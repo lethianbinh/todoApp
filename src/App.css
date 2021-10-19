@@ -1,0 +1,167 @@
+* {
+    list-style: none;
+}
+
+
+/*home.js*/
+
+.Home {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.home-mssv {
+    text-align: center;
+    font-size: 40px;
+}
+
+.home-email {
+    text-align: center;
+    font-size: 40px;
+}
+
+.home-name {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+
+/*TodoList*/
+
+.title-List {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+
+/*TodoForm*/
+
+.title-Form {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.site-layout-header .site-layout-content {
+    background: #fff;
+}
+
+
+/*TodoItem*/
+
+.todo-item {
+    margin: 10px;
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.item-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-status {
+    margin: 0 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.item-body {
+    flex: 1;
+}
+
+.todo-name {
+    color: #2577fd;
+    font-size: 14px;
+    margin: 5px 3px;
+}
+
+.todo-time {
+    color: #0a0c11;
+    font-size: 16px;
+    margin: 5px 3px;
+}
+
+.todo-status {
+    color: #868c98;
+    font-size: 16px;
+    margin: 5px 3px;
+}
+
+.item-end {
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item-icon {
+    margin: 0px;
+}
+
+Button {
+    margin: 20px;
+}
+
+.title-timeline {
+    color: white;
+    font-size: 30px;
+    text-align: center
+}
+
+.vertical-timeline::before {
+    background: #ccc !important;
+}
+
+.vertical-timeline-element-content {
+    -webkit-box-shadow: 0 3px 0 #4bb54385 !important;
+    box-shadow: 0 3px 0 #4bb54385 !important;
+}
+
+.vertical-timeline-element-title {
+    color: #2577fd;
+    padding: 5px 0px;
+    font-size: 25px !important;
+}
+
+.vertical-timeline-element-subtitle {
+    color: rgb(19, 14, 14);
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.vertical-timeline-element-desc {
+    color: rgb(19, 14, 14);
+    font-size: 16px;
+}
+
+.menu {
+    font-weight: bold;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(255, 188, 45, 1) 100%);
+    font-size: 20px;
+}
